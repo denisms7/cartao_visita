@@ -1,0 +1,95 @@
+.hero-title {
+    font-size: 3rem; /* ligeiramente maior */
+    font-weight: 800;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 1.5rem 0;
+    background: linear-gradient(135deg, #6c63ff, #3f3d9d);
+    border-radius: 18px; /* mais suave */
+    letter-spacing: 1.2px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.hero-subtitle {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #444; /* mais escuro para contraste */
+    margin-top: 14px;
+    line-height: 1.5;
+}
+
+
+
+/* Accordion estilizado */
+.accordion .accordion-item {
+    border: none;
+    margin-bottom: 14px;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.08);
+}
+
+.accordion-button {
+    background: linear-gradient(135deg, #6c63ff, #3f3d9d);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 16px 20px;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background: linear-gradient(135deg, #3f3d9d, #6c63ff);
+    color: #fff;
+    box-shadow: inset 0 -2px 0 rgba(255, 255, 255, 0.2);
+}
+
+.accordion-button:hover {
+    filter: brightness(1.1);
+}
+
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+
+.accordion-body {
+    background: #ffffff; /* fundo mais limpo */
+    padding: 22px;
+    font-size: 1rem;
+    line-height: 1.65;
+    color: #444;
+}
+
+.accordion-body strong {
+    display: block;
+    margin-bottom: 8px;
+    color: #3f3d9d; /* contraste mais equilibrado */
+    font-size: 1.15rem;
+}
+
+
+
+
+.bg-footer {
+    background: linear-gradient(135deg, #3f3d9d, #6c63ff);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.footer-link {
+    color: #ffdc80;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.btn-success i, .footer-link i {
+    margin-right: 6px;
+}
