@@ -37,4 +37,4 @@ A página foi criada com **HTML5**, **CSS3** e **Bootstrap 5**, incluindo os **B
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/dms-sistemas.git
+   git clone https://github.com/denisms7/cartao_visita.git
