@@ -26,15 +26,16 @@ A página foi criada com **HTML5**, **CSS3** e **Bootstrap 5**, incluindo os **B
 - Bootstrap Icons
 
 ## Estrutura de Arquivos
-
+```
 ├── index.html # Página principal
 └── README.md # Documentação do projeto
     └── static
         ├── css # Estilos personalizados
         └── img # Imagens personalizadas
-
+```
 ## Como Visualizar
 
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/dms-sistemas.git
+```
